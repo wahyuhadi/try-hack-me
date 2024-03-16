@@ -6,5 +6,6 @@
 * compile 
 
 ```sh
-    gcc 
+    gcc -g -m32 -fno-stack-protector -z execstack -o try-hack try-hack.c
+
 ```
